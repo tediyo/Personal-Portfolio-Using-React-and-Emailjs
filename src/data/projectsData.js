@@ -1,6 +1,8 @@
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
+
+import ttt from '../assets/png/ttt.png'
+import ttt1 from '../assets/png/ttt1.png'
+
+
 
 
 export const projectsData = [
@@ -11,7 +13,7 @@ export const projectsData = [
         tags: ['React', 'SAAS', 'React Bootstrap', 'node', 'express' , 'MongoDb'],
         code: 'https://github.com/tediyo/Mudie-Ecommerce-MERN-stack',
         demo: '',
-        image: six
+        image: ttt
     },
     {
         id: 2,
@@ -20,7 +22,7 @@ export const projectsData = [
         tags: ['React', 'Express', 'Material Ui','emailjs'],
         code: 'https://github.com/tediyo/Personal-Portfolio-Using-React-and-Emailjs',
         demo: '',
-        image: seven
+        image: ttt1
     }/*,
     {
         id: 3,
