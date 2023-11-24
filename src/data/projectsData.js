@@ -6,22 +6,22 @@ import six from '../assets/svg/projects/six.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
+        projectName: 'Mudie Ecommerce ',
+        projectDesc: 'This project about Simplifying and Modernizing of ecommerce system.',
+        tags: ['React', 'SAAS', 'React Bootstrap', 'node', 'express' , 'MongoDb'],
+        code: 'https://github.com/tediyo/Mudie-Ecommerce-MERN-stack',
+        demo: '',
         image: six
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
+        projectName: 'Personal Portfolio',
+        projectDesc: 'This project is a personal portfolio for a developer using Reactjs and Emailjs.',
+        tags: ['React', 'Express', 'Material Ui','emailjs'],
+        code: 'https://github.com/tediyo/Personal-Portfolio-Using-React-and-Emailjs',
+        demo: '',
         image: seven
-    },
+    }/*,
     {
         id: 3,
         projectName: 'Travel Agency',
@@ -30,7 +30,7 @@ export const projectsData = [
         code: 'https://github.com/said7388/Travel-Agency-client',
         demo: 'https://travel-agency-fc58b.web.app/',
         image: eight
-    }
+    }*/
 ]
 
 

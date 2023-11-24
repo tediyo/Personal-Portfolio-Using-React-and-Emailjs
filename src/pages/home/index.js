@@ -11,7 +11,7 @@ import Education from '../../components/core-ui/education/education'
 import Experience from '../../components/core-ui/experience/experience'
 import Skills from '../../components/core-ui/skills/skills'
 import { headerData } from '../../data/headerData'
-
+import {timeConverter} from '../../utils/timeConverter'
 function HomePage() {
     return (
         <div>
@@ -19,6 +19,7 @@ function HomePage() {
                 <title>{headerData.name} - Porfolio</title>
             </Helmet>
             <Navbar />
+            <timeConverter />
             <Landing />
             <About />
             <Experience />
