@@ -1,5 +1,5 @@
 .about {
-  min-height: fit-content;
+ 
   position: relative;
 }
 
@@ -105,7 +105,7 @@
   }
 
   .about-img > img {
-    width: 250px;
+    width: 0px;
     flex: 0.4;
   }
 }
@@ -144,4 +144,16 @@
   .about-img > img {
     width: 200px;
   }
-}
+    .About-card {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 150%;
+      height: 140px;
+      padding: 1.5rem;
+      border-radius: 200px;
+      margin-bottom: 1.5rem;
+      transition: background-color 200ms ease-in-out;
+    }  
+  }
