@@ -5,7 +5,7 @@ import { ThemeContext } from '../../../contexts/theme-context';
 import { aboutData } from '../../../data/aboutData';
 import AnimationLottie from '../../helper/animation-lottie';
 import './about.css';
-import { Card } from 'react-bootstrap';
+//import { Card } from 'react-bootstrap';
 import { makeStyles } from '@mui/styles';
 function About() {
     const { theme } = useContext(ThemeContext);
