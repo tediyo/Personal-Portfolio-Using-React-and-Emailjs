@@ -111,8 +111,8 @@ const Contacts = () => {
   const handleContactForm = (e) => {
     e.preventDefault();
     const REACT_APP_YOUR_SERVICE_ID='service_o2jcu49'
-   const  REACT_APP_YOUR_TEMPLATE_ID='template_n2xpb0t'
-    const REACT_APP_YOUR_PUBLIC_KEY='F8NA88K3S8A8IUHig'
+     const REACT_APP_YOUR_TEMPLATE_ID='template_n2xpb0t'
+    const REACT_APP_YOUR_PUBLIC_KEY='FBJk43pYReZyA_AeQ'
     if (name && email && message) {
       if (isEmail(email)) {
         emailjs.sendForm(REACT_APP_YOUR_SERVICE_ID, REACT_APP_YOUR_TEMPLATE_ID, form.current, REACT_APP_YOUR_PUBLIC_KEY)

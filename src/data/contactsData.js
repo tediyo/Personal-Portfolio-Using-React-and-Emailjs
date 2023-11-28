@@ -4,9 +4,9 @@ export const contactsData = {
     address: 'Addis Abeba ,Ethiopia ',
     github: 'https://github.com/tediyo',
     facebook: '',
-    linkedIn: '',
+    linkedIn: 'https://www.linkedin.com/in/tewodros-berhanu-953750230',
     twitter: '',
     medium: '',
     stackOverflow: '',
-    devUsername: "thedron16"
+    devUsername: 'thedron16'
 }
