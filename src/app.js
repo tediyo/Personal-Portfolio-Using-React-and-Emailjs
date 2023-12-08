@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import './app.css';
 import BackToTop from './components/helper/back-to-top/back-to-top';
+import AdsComponent from './components/adsense/adsense';
 import ChangeTheme from './components/helper/change-theme/change-theme';
 import ScrollToTop from './components/helper/scroll-to-top';
 import { ThemeContext } from './contexts/theme-context';
@@ -16,10 +17,12 @@ function App() {
     <div style={{ backgroundColor: theme.secondary }}>
       <Router>
         <ScrollToTop />
+        <AdsComponent dataAdSlot='2116676683805770' />
         <Routes>
           <Route path='/' element={<HomePage />} exact />
           <Route path='/blog' element={<BlogPage />} exact />
           <Route path='/projects' element={<ProjectPage />} exact />
+          
           <Route
             path="*"
             element={<Navigate to="/" replace />}
