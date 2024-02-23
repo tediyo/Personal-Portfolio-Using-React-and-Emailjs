@@ -17,7 +17,7 @@ function App() {
     <div style={{ backgroundColor: theme.secondary }}>
       <Router>
         <ScrollToTop />
-        <AdsComponent dataAdSlot='2116676683805770' />
+        
         <Routes>
           <Route path='/' element={<HomePage />} exact />
           <Route path='/blog' element={<BlogPage />} exact />
