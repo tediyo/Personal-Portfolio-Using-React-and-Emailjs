@@ -1,4 +1,4 @@
-import React, { useEffect  } from 'react';
+/*import React, { useEffect  } from 'react';
 
 const AdsComponent = (props) => {
     const { dataAdSlot } = props;  
@@ -32,4 +32,4 @@ const AdsComponent = (props) => {
     );
 };
 
-export default AdsComponent;
+export default AdsComponent;*/
