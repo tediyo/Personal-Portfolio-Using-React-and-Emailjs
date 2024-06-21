@@ -1,6 +1,6 @@
 export const contactsData = {
-    email: 'thedronberhanu16@gmail.com',
-    phone: '+251947087598/251930448665',
+    email: 'tewodrosberhanu19@gmail.com',
+    phone: '+251947087598|+251930448665',
     address: 'Addis Ababa ,Ethiopia ',
     github: 'https://github.com/tediyo',
     facebook: '',
