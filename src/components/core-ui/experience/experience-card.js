@@ -5,7 +5,7 @@ import expImgBlack from '../../../assets/svg/experience/expImgBlack.svg';
 import expImgWhite from '../../../assets/svg/experience/expImgWhite.svg';
 import { ThemeContext } from '../../../contexts/theme-context';
 import './experience.css';
-import gcc from 'gcc.png'
+import gcc from './gcc.png'
 function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
     const { theme } = useContext(ThemeContext);
 
@@ -22,7 +22,7 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
         <Fade bottom>
             <div key={id} className={`experience-card ${classes.experienceCard}`}>
                 <div className="expcard-img" style={{backgroundColor: theme.primary}}>
-                    <img src={{gcc} ? expImgBlack : expImgWhite} alt="" />
+                    <img src={gcc ? expImgBlack : expImgWhite} alt="" />
                 </div>
                 <div className="experience-details">
                     <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
