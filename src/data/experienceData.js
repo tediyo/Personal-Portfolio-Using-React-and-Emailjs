@@ -1,10 +1,10 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Teckton Private Software solution Limited',
-        jobtitle: ' Junior Software Engineer ',
-        startYear: 'Jan 2020',
-        endYear: 'Feb 2021'
+        company: 'Game Changers Consulting PLC',
+        jobtitle: 'Software Engineer | Project Coordinator ',
+        startYear: 'Sep 2023',
+        endYear: 'Present'
     },
     {
         id: 2,
