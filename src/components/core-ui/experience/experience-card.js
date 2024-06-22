@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import expImgBlack from '../../../assets/svg/experience/expImgBlack.svg';
 import expImgWhite from '../../../assets/svg/experience/expImgWhite.svg';
+import expImgYellow from '../../../assets/svg/experience/expYellow.svg';
 import { ThemeContext } from '../../../contexts/theme-context';
 import './experience.css';
 import gcc from './gcc.png'
