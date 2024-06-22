@@ -8,18 +8,25 @@ export const experienceData = [
     },
     {
         id: 2,
-        company: 'Mudie Software solutions & consultancy',
-        jobtitle: ' part time software developer and frontend QA tester ',
-        startYear: 'May 2022',
-        endYear: 'July 2023'
+        company: 'Upwork(freelance)',
+        jobtitle: 'Full-Stack Developer|MERN Stack',
+        startYear: 'Jun 2023',
+        endYear: 'Present'
     },
     {
         id: 3,
-        company: 'Fiverr(freelance)',
-        jobtitle: 'Full-Stack Developer',
-        startYear: 'Jun 2022',
-        endYear: 'Now'
+        company: 'Mudie Ecommerce Solutions PLC',
+        jobtitle: 'Full Stack Engineer ',
+        startYear: 'Aug 2022',
+        endYear: 'Sep 2023'
     },
+    {
+        id: 4,
+        company: 'Amhara Media Corporation',
+        jobtitle: 'Software Developer | Quality Assurance Tester Intern',
+        startYear: 'May 2022',
+        endYear: 'Oct 2022'
+    }/*
     {
         id: 4,
         company: 'Upwork(freelance)',
