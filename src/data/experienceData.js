@@ -2,7 +2,7 @@ export const experienceData = [
     {
         id: 1,
         company: 'Game Changers Consulting PLC',
-        jobtitle: 'Software Engineer | Project Coordinator ',
+        jobtitle: 'Software Engineer | Project Coordinator',
         startYear: 'Sep 2023',
         endYear: 'Present'
     },
