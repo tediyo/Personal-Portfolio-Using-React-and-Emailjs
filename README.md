@@ -205,7 +205,7 @@ yarn start
 
 # Usage :joystick:
 
-### Customize your details for each component in `src/data` [folder](https://github.com/hhhrrrttt222111/developer-portfolio/tree/master/src/data).
+### Customize your details for each component in `src/data` [folder](https://github.com//developer-portfolio/tree/master/src/data).
 
 Eg:
 
