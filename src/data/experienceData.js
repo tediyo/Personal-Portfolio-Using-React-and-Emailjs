@@ -26,14 +26,15 @@ export const experienceData = [
         jobtitle: 'Software Developer | Quality Assurance Tester Intern',
         startYear: 'May 2022',
         endYear: 'Oct 2022'
-    }/*
+    }
+    /*
     {
         id: 4,
         company: 'Upwork(freelance)',
         jobtitle: 'Full-Stack Developer',
         startYear: 'Jun 2022',
         endYear: 'Present'
-    }/*,
+    },
     {
         id: 5,
         company: 'Learning New Technology For Everyday',
