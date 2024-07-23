@@ -18,6 +18,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
       id='contacts'
       style={{ backgroundColor: theme.secondary }}
     >
+      {/*  */}
       <div className='contacts--container'>
         <h1 style={{ color: theme.primary }}>Contacts</h1>
         <div className='contacts-body'>

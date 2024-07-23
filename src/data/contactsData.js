@@ -1,6 +1,4 @@
 
-
-
 export const contactsData = {
     email: 'tewodrosberhanu19@gmail.com',
     phone:'+251947087598 | +251930448665',
