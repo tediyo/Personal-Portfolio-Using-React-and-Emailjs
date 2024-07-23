@@ -1,7 +1,7 @@
 import { IconButton, Snackbar, SnackbarContent } from '@mui/material';
 import React, { useContext } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaTelegram, FaInstagram,FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
@@ -128,19 +128,19 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
               <div className={classes.detailsIcon}>
                 <FiAtSign />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
+              <p style={{ color: theme.primary }}>{contactsData.email}</p>
             </a>
             <a href={`tel:${contactsData.phone}`} className='personal-details'>
               <div className={classes.detailsIcon}>
                 <FiPhone />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
+              <p style={{ color: theme.primary }}>{contactsData.phone}</p>
             </a>
             <div className='personal-details'>
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.address}</p>
+              <p style={{ color: theme.primary }}>{contactsData.address}</p>
             </div>
 
             <div className='socialmedia-icons'>
@@ -177,6 +177,16 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
               {contactsData.facebook && (
                 <a href={contactsData.facebook} target='_blank' rel='noreferrer' className={classes.socialIcon}>
                   <FaFacebook aria-label='Facebook' />
+                </a>
+              )}
+              {contactsData.Instagram && (
+                <a href={contactsData.Instagram} target='_blank' rel='noreferrer' className={classes.socialIcon}>
+                  <FaInstagram aria-label='Instagram' />
+                </a>
+              )}
+               {contactsData.Telegram && (
+                <a href={contactsData.Telegram} target='_blank' rel='noreferrer' className={classes.socialIcon}>
+                  <FaTelegram aria-label='Telegram' />
                 </a>
               )}
             </div>
