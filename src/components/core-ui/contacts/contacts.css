@@ -129,6 +129,46 @@
   padding-left: 7rem;
   margin-top: 1.2rem;
 }
+/* contacts.css */
+
+/* Container for social media icons */
+.socialmedia-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Spacing between icons */
+  padding: 20px; /* Padding around icons */
+  background-color: #000000; /* Background color for the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+  max-width: 600px; /* Max width of the card */
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+/* Style for each social media icon link */
+.socialmedia-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Width of each icon container */
+  height: 40px; /* Height of each icon container */
+  border-radius: 50%; /* Make each icon container a circle */
+  background-color: #078dfc; /* Background color for the icon container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for each icon container */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for each social media icon */
+.socialmedia-icons a:hover {
+  background-color: #06e0fd; /* Background color on hover */
+  transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
+/* Style for the social media icons themselves */
+.socialmedia-icons a svg {
+  color: #faf7f7; /* Color of the icons */
+  font-size: 20px; /* Size of the icons */
+}
 
 .personal-details {
   display: flex;
