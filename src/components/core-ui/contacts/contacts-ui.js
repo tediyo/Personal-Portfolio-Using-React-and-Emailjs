@@ -40,20 +40,21 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 />
               </div>
               <div className='input-container'>
-                <label htmlFor='Email' className={classes.label}>
-                  Email
-                </label>
-                <input
-                  placeholder='John@doe.com'
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  type='email'
-                  name='user_email'
-                  className={`form-input ${classes.input}`}
-                  aria-label='Email'
-                  required
-                />
-              </div>
+  <label htmlFor='Email' className={classes.label}>
+    Email
+  </label>
+  <input
+    placeholder='John@doe.com'
+    value={email}
+    onChange={(e) => setEmail(e.target.value)}
+    type='email'
+    name='user_email'
+    className={`form-input ${classes.input}`}
+    aria-label='Email'
+    required
+  />
+</div>
+
               <div className='input-container'>
                 <label htmlFor='Message' className={classes.label}>
                   Message

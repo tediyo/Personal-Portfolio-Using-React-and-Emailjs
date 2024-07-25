@@ -118,7 +118,15 @@
   font-size: 28px;
   transition: all 0.3s 0.8s ease-in-out;
 }
+.form-input {
+  border: none;
+  border-bottom: 2px solid blue;
+  outline: none;
+}
 
+.form-input:focus {
+  border-bottom: 2px solid blue;
+}
 .contacts-details {
   display: flex;
   flex-direction: column;
