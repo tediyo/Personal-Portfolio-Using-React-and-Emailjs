@@ -34,6 +34,19 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
+                           {contactsData.Instagram && (
+                            <a
+                                href={contactsData.Instagram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaLinkedin
+                                    className='landing--social Instagram-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='Instagram'
+                                />
+                            </a>
+                        )}
                         {contactsData.github && (
                             <a
                                 href={contactsData.github}
@@ -90,19 +103,20 @@ function LandingUI({ theme, drawerOpen, classes }) {
                 >
                     <div
                         className='lcr--content'
-                        style={{ color: theme.tertiary }}
+                        style={{ color: theme.primary }}
                     >
                         {/* <h6 style={{ color: theme.primary }}>{headerData.title}</h6> */}
-                        <h1>{headerData.name}</h1>
+                        <h1 style={{ color: theme.primary, fontSize: '50px' }}>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
-                                'Fullstack Developer']}
+                                'Fullstack Developer',
+                                'Software Engineer',
+                                'Tech Consultant',
+                                ]}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"
-                            style={{ color: theme.primary, fontSize: '20px' }}
+                            style={{ color: theme.primary, fontSize: '50px' }}
                             loop
                         />
                         <p>{headerData.desciption}</p>
