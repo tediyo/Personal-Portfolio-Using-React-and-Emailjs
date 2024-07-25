@@ -1,4 +1,4 @@
-
+import Banner from '../assets/png/Banner.png'
 import ttt from '../assets/png/ttt.png'
 import ttt1 from '../assets/png/ttt1.png'
 
@@ -23,16 +23,16 @@ export const projectsData = [
         code: 'https://github.com/tediyo/Personal-Portfolio-Using-React-and-Emailjs',
         demo: '',
         image: ttt1
-    }/*,
+    },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
-    }*/
+        projectName: 'Tracer Study for Six TVET Collages By GIZ',
+        projectDesc: 'This project designed and implemented for conducting tracer study for six federal TVET collages in collaboration with GiZ Step and Game Changer Consulting PLC.',
+        tags: ['Php', 'CSS', 'Javascript'],
+        code: 'https://github.com/tediyo/Tracer-Study-Web-App-for-TVET-colleges',
+        demo: 'https://tracerbdr.000webhostapp.com/',
+        image: Banner
+    }
 ]
 
 
