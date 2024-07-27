@@ -6,7 +6,7 @@ import { headerData } from '../../../data/headerData';
 import './landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaTwitter
+    FaFacebook, FaGithub, FaLinkedin, FaInstagram, FaTwitter
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 
@@ -34,19 +34,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
-                           {contactsData.Instagram && (
-                            <a
-                                href={contactsData.Instagram}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaLinkedin
-                                    className='landing--social Instagram-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='Instagram'
-                                />
-                            </a>
-                        )}
+                           
                         {contactsData.github && (
                             <a
                                 href={contactsData.github}
@@ -57,6 +45,19 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     className='landing--social'
                                     style={{ color: theme.primary }}
                                     aria-label='GitHub'
+                                />
+                            </a>
+                        )}
+                        {contactsData.Instagram && (
+                            <a
+                                href={contactsData.Instagram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaInstagram
+                                    className='landing--social Instagram-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
