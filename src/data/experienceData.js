@@ -1,22 +1,26 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Game Changers Consulting PLC',
-        jobtitle: 'Software Engineer | Project Coordinator',
-        startYear: 'Sep 2023',
+        company: 'Hance Tecnologies',
+        jobtitle: 'Front End Developer',
+        jobKind: 'Hybrid',
+        startYear: 'Jun 2024',
         endYear: 'Present'
     },
     {
         id: 2,
-        company: 'Upwork(freelance)',
-        jobtitle: 'Full-Stack Developer|MERN Stack',
-        startYear: 'Jun 2023',
+        company: 'Game Changers Consulting PLC',
+        jobtitle: 'Software Engineer | Project Coordinator',
+        jobKind: 'Full Time',
+        startYear: 'Sep 2023',
         endYear: 'Present'
     },
+   
     {
         id: 3,
         company: 'Mudie Ecommerce Solutions PLC',
-        jobtitle: 'Full Stack Engineer ',
+        jobtitle: 'Full Stack Developer ',
+        jobKind: 'Remote',
         startYear: 'Aug 2022',
         endYear: 'Sep 2023'
     },
@@ -24,6 +28,7 @@ export const experienceData = [
         id: 4,
         company: 'Amhara Media Corporation',
         jobtitle: 'Software Developer | Quality Assurance Tester Intern',
+        jobKind: 'Full Time Intern',
         startYear: 'May 2022',
         endYear: 'Oct 2022'
     }
