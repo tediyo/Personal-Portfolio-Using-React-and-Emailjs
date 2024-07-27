@@ -6,7 +6,8 @@ import { headerData } from '../../../data/headerData';
 import './landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaInstagram, FaTwitter
+    FaFacebook, FaGithub, FaLinkedin,   FaInstagram, FaTwitter,
+    FaTelegram
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 
@@ -58,6 +59,19 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     className='landing--social Instagram-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='Instagram'
+                                />
+                            </a>
+                        )}
+                        {contactsData.Telegram && (
+                            <a
+                                href={contactsData.Telegram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaTelegram
+                                    className='landing--social Teegram-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='Telegram'
                                 />
                             </a>
                         )}
