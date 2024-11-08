@@ -124,9 +124,9 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1 style={{ color: theme.primary, fontSize: '50px' }}>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Fullstack Developer',
-                                'Software Engineer',
-                                'Tech Consultant',
+                                'Senior Software Developer',
+                                'QA Engineer',
+                                'Technical Project Manager',
                                 ]}
                             typeSpeed={40}
                             backSpeed={50}
@@ -153,7 +153,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 to='/#contacts'
                                 smooth={true}
                                 spy='true'
-                                duration={2000}
+                                duration={1000}
                             >
                                 <button className={classes.contactBtn}>
                                     Contact
