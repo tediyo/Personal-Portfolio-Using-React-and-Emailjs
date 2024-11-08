@@ -74,6 +74,8 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import react_native from '../assets/svg/skills/react_native.png'
+import jest from '../assets/svg/skills/jest.png'
 
 
 export const skillsImage = (skill) => {
@@ -101,6 +103,10 @@ export const skillsImage = (skill) => {
             return javascript;
         case 'next js':
             return nextJS;
+        case 'Jest':
+            return jest;
+        case 'React Native':
+            return react_native;
         case 'nuxt js':
             return nuxtJS;
         case 'react':
