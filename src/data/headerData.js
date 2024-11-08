@@ -4,7 +4,7 @@ import Teddy_Github from "../assets/png/Teddy_Github.jpg"
 export const headerData = {
     name: 'Tewodros Berhanu',
     title: "ppppp",
-    desciption: "Hi 👋, I'm Tewodros, a passionate and dedicated Software Developer with a strong foundation in software engineering principles and a keen interest in developing innovative and efficient solutions. My journey in software development began during my academic years, where I honed my skills in various programming languages and technologies.",
+    desciption: "Hi 👋, I'm a Senior Software Developer, QA Engineer & Technical Project Lead With a solid background in software development and quality assurance, I specialize in crafting high-impact, scalable applications and systems. As a Senior Software Developer and QA Engineer, I am dedicated to delivering robust, user-focused solutions. In my role as a Technical Project Lead, I guide cross-functional teams through each project phase, ensuring top quality and timely delivery. My expertise across various tech stacks and methodologies empowers me to tackle complex challenges and bring innovative ideas to life.",
     image: Teddy_Github,
     
     resumePdf: resume,
